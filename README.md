@@ -1,1 +1,1 @@
-# dotNET-Core-and-ReactJs-Crud-App
+# Snapshot of App
