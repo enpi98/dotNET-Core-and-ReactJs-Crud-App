@@ -1,1 +1,1 @@
-# DotNET-Core-and-ReactJs-Crud-App
+# dotNET-Core-and-ReactJs-Crud-App
