@@ -49,7 +49,7 @@ namespace BusinessLayer.Concrete
         {
             List<User> userList = new List<User>();
 
-            List<UserEntity> list = iUserDal.getListUsers();// Sort.by(Sort.Order.asc("id"));
+            List<UserEntity> list = iUserDal.getListUsers();
             if (list != null)
             {
                 foreach (UserEntity ue in list)
