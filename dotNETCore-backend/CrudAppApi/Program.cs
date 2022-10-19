@@ -21,15 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IUserService, UserManager>();
 builder.Services.AddSingleton<IUserDal, UserRepository>();
-/*builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: MyAllowReactOrigins,
-                      policy =>
-                      {
-                          policy.WithOrigins("http://localhost:3000");
-                      });
-   
-});*/
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(
